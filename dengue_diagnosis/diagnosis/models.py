@@ -16,7 +16,7 @@ symptoms = [
     [0, 0, 0, 0],
     [1, 0, 0, 1],
 ]
-labels = [1, 1, 0, 1, 0, 0, 1]
+labels = [1, 1, 0, 1, 0, 0, 0]
 
 # Train-Test Split
 X_train, X_test, y_train, y_test = train_test_split(symptoms, labels, test_size=0.2)
